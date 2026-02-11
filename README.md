@@ -17,7 +17,7 @@
 
 This is the official implementaion of paper [***Balancing Understanding and Generation in Discrete Diffusion Models***](https://arxiv.org/pdf/2602.01362). This repository contains Pytorch training and evaluation code for ***continual pretraining LLaDA with XDLM***.
 
-## LLaDA Continue Pretraining
+## LLaDA Continual Pretraining
 
 ***LLaDA-XDLM with sampling budget of 32.***
 Evaluation of adapting LLaDA-8B to our XDLM formulation (LLaDA-XDLM): (a) LLaDA-XDLM consistently out-performs baselines across diverse benchmarks with 32 sampling steps; (b) Improvements are particularly pronounced in code generation (MBPP), where the
@@ -116,7 +116,7 @@ we sincerely thank them for their contributions to the community.
 
 ## Citation
 
-```
+```bibtex
 @article{liu2026balancing,
   title={Balancing Understanding and Generation in Discrete Diffusion Models},
   author={Liu, Yue and Zhao, Yuzhong and Xie, Zheyong and Ye, Qixiang and Jiao, Jianbin and Hu, Yao and Cao, Shaosheng and Liu, Yunfan},
